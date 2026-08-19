@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RepositoryUrl>https://github.com/Abderrelmsd/Portal</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Abderrelmsd/Portal</PackageProjectUrl>
+    <PackageId>Portal</PackageId>
+    <Description>Embedded API layer: version conventions, FluentValidation problem responses, standardized ProblemDetails errors and OpenAPI generation for outward-facing endpoints.</Description>
+    <RootNamespace>Portal</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>
